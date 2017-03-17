@@ -1,6 +1,6 @@
 {
   "name": "gulp-configration",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "description": "translate consts from propties files",
   "main": "index.js",
   "scripts": {
