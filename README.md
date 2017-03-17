@@ -1,4 +1,4 @@
-gulp replace vars in javascript
+replace vars in javascript defined in .properties files
 ----------
 
 > useage
