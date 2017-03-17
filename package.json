@@ -1,10 +1,14 @@
 {
-  "name": "gulp-configration",
-  "version": "0.1.0",
-  "description": "translate consts from propties files",
+  "name": "gulp-configuration",
+  "version": "0.1.1",
+  "description": "manage your `environment consts` in `.properties` files with `gulp`",
   "main": "index.js",
-  "scripts": {
-    "test": ""
+  "dependencies": {
+    "gulp-util": "^3.0.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/foolishchow/gulp-configuration.git"
   },
   "keywords": [
     "translate",
@@ -13,8 +17,8 @@
   ],
   "author": "foolishchow",
   "license": "MIT",
-  "dependencies": {
-    "gulp-util": "^3.0.7"
+  "bugs": {
+    "url": "https://github.com/foolishchow/gulp-configuration/issues"
   },
-  "git":"https://github.com/foolishchow/gulp-configuration"
+  "homepage": "https://github.com/foolishchow/gulp-configuration#readme"
 }
