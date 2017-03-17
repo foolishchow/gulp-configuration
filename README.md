@@ -1,5 +1,6 @@
-replace vars in javascript defined in .properties files
+gulp-configuration
 ----------
+manage your `environment consts` in `.properties` files with `gulp`
 
 > useage
 
