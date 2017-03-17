@@ -7,8 +7,7 @@ gulp replace vars in javascript
     npm install gulp-configuration --save
 ```
 
-## in you `gulpfile.js`
-
+- in you `gulpfile.js`   
 ```javascript   
 
     var configration = require('gulp-configration');
@@ -20,8 +19,7 @@ gulp replace vars in javascript
         .pipe(gulp.dest('../dist'));
     });
 ```
-## in your `src/main.js`
-
+- in your `src/main.js`   
 ```javascript 
     window.configurations = {};
     if( "${evn}".length == 3 ){
@@ -43,8 +41,7 @@ gulp replace vars in javascript
     }
 ```
 
-## in your `vars/pre.vars.properties`
-
+- in your `vars/pre.vars.properties`   
 ``` 
     evn=pre
     app_url=http://10.20.16.75:9300
@@ -52,7 +49,7 @@ gulp replace vars in javascript
     headpicPreffix=http://10.20.16.75:8018
 ```
 
-## after configuration , your `src/main.js` would be 
+- after configuration , your `src/main.js` would be   
 ```javascript
     if( "pre".length == 3 ){
         configurations = {
