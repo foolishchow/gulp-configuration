@@ -1,6 +1,5 @@
 var gutil = require('gulp-util'),
     through = require('through2'),
-    postcss = require('postcss'),
     configReader = require('./lib/configReader'),
     configInstant = require('./lib/configInstant');
 
@@ -27,8 +26,5 @@ module.exports = function(options) {
             me.push(file);
             cb();
         });
-            
-        
-        
     });
 };
